@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(59, 57, 57);
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+.nav-icon {
+    height: 80px;
+}
+.nav-logo-text,.nav-title{
+    margin: 0;
+}
+.nav-logo-text{
+    color: #61DAFB;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 24px;
+}
+.nav-title{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 22px;
+}
+main{
+    padding: 57px 27px;
+    color: rgb(255, 255, 255);
+    background-image: url(./Components/logo192.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+.main-head{
+    color: aliceblue;
+    font-weight: 100px;
+    font-size: 32px;
+    margin: 20px;
+    letter-spacing: -0.05em;
+    margin-top: 4%;
+
+}
+.main-body{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 46px;
+    max-width: auto;
+}
+.main-body > li{
+    line-height: 19px;
+    padding-block: 10px;
+}
+.main-body> li::marker {
+    font-size: 1.8rem;
+    color: #61DAFB;
+}
+
